@@ -1,0 +1,56 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="Handcrafted ocean resin wall clock and custom floral nameplate with epoxy gloss finish">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F6"/>
+      <stop offset="100%" stop-color="#F3E8E2"/>
+    </linearGradient>
+    <radialGradient id="oceanGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1A535C"/>
+      <stop offset="55%" stop-color="#4ECDC4"/>
+      <stop offset="85%" stop-color="#A8DADC"/>
+      <stop offset="100%" stop-color="#F7FFF7"/>
+    </radialGradient>
+    <linearGradient id="goldLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEADE"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="70%" stop-color="#AA7C11"/>
+      <stop offset="100%" stop-color="#F3E5AB"/>
+    </linearGradient>
+    <linearGradient id="glossSheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="resinShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#2B1E22" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgGrad)"/>
+  <g filter="url(#resinShadow)" transform="translate(180, 40)">
+    <circle cx="120" cy="120" r="110" fill="url(#oceanGrad)" stroke="url(#goldLeaf)" stroke-width="6"/>
+    <path d="M 20 130 Q 70 105 120 125 T 220 115" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 15 150 Q 70 125 130 145 T 225 135" fill="none" stroke="#FFFFFF" stroke-width="3.5" opacity="0.75"/>
+    <path d="M 25 170 Q 75 145 140 165 T 215 155" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+    <circle cx="80" cy="70" r="4" fill="url(#goldLeaf)"/>
+    <circle cx="165" cy="85" r="5" fill="url(#goldLeaf)"/>
+    <circle cx="140" cy="55" r="3.5" fill="url(#goldLeaf)"/>
+    <circle cx="190" cy="120" r="4.5" fill="url(#goldLeaf)"/>
+    <text x="120" y="42" font-family="'Cinzel', serif" font-size="14" font-weight="bold" fill="url(#goldLeaf)" text-anchor="middle">XII</text>
+    <text x="205" y="125" font-family="'Cinzel', serif" font-size="14" font-weight="bold" fill="url(#goldLeaf)" text-anchor="middle">III</text>
+    <text x="120" y="210" font-family="'Cinzel', serif" font-size="14" font-weight="bold" fill="url(#goldLeaf)" text-anchor="middle">VI</text>
+    <text x="35" y="125" font-family="'Cinzel', serif" font-size="14" font-weight="bold" fill="url(#goldLeaf)" text-anchor="middle">IX</text>
+    <line x1="120" y1="120" x2="120" y2="60" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="120" y1="120" x2="165" y2="120" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="120" cy="120" r="5" fill="url(#goldLeaf)"/>
+    <ellipse cx="120" cy="70" rx="90" ry="45" fill="url(#glossSheen)"/>
+  </g>
+  <g filter="url(#resinShadow)" transform="translate(100, 290)">
+    <rect width="400" height="120" rx="14" fill="#2B1E22" stroke="url(#goldLeaf)" stroke-width="4"/>
+    <path d="M 15 65 Q 180 30 385 75" stroke="#C89B84" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M 30 90 Q 200 60 370 95" stroke="#E07A86" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <text x="200" y="58" font-family="'Cinzel', Georgia, serif" font-size="24" font-weight="bold" fill="url(#goldLeaf)" text-anchor="middle" letter-spacing="2">THE SHARMAS</text>
+    <text x="200" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#FFF9F6" text-anchor="middle" letter-spacing="1">Govind Nagar • Kanpur</text>
+    <rect x="8" y="8" width="384" height="104" rx="10" fill="none" stroke="url(#goldLeaf)" stroke-width="1" opacity="0.6"/>
+    <rect width="400" height="50" rx="14" fill="url(#glossSheen)"/>
+  </g>
+</svg>

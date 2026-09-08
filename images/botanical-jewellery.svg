@@ -1,0 +1,39 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Handcrafted botanical resin pendant necklace with matching dried flower earrings">
+  <defs>
+    <linearGradient id="jewelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F6"/>
+      <stop offset="100%" stop-color="#F3E8E2"/>
+    </linearGradient>
+    <linearGradient id="goldChain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEADE"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#996515"/>
+    </linearGradient>
+    <filter id="jewelShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#2B1E22" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#jewelBg)"/>
+  <ellipse cx="200" cy="155" rx="135" ry="105" fill="#FFFFFF" stroke="#E5D5CD" stroke-width="1.5"/>
+  <path d="M 120 30 Q 200 110 200 130 Q 200 110 280 30" fill="none" stroke="url(#goldChain)" stroke-width="2.5" stroke-dasharray="3,2"/>
+  <rect x="196" y="118" width="8" height="12" rx="2" fill="url(#goldChain)"/>
+  <g filter="url(#jewelShadow)">
+    <path d="M 200 128 C 225 160 230 195 200 215 C 170 195 175 160 200 128 Z" fill="#FFF9F6" stroke="url(#goldChain)" stroke-width="3"/>
+    <circle cx="200" cy="180" r="14" fill="#E07A86" opacity="0.75"/>
+    <circle cx="195" cy="175" r="9" fill="#9B4A58" opacity="0.85"/>
+    <circle cx="206" cy="182" r="7" fill="#C89B84" opacity="0.7"/>
+    <circle cx="192" cy="160" r="2.5" fill="url(#goldChain)"/>
+    <circle cx="208" cy="165" r="2" fill="url(#goldChain)"/>
+    <path d="M 190 145 C 182 165 182 185 190 195" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  <g filter="url(#jewelShadow)" transform="translate(100, 160)">
+    <circle cx="0" cy="0" r="18" fill="#FFF9F6" stroke="url(#goldChain)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="10" fill="#E07A86" opacity="0.8"/>
+    <path d="M 0 -18 Q 0 -30 -10 -25" fill="none" stroke="url(#goldChain)" stroke-width="2"/>
+  </g>
+  <g filter="url(#jewelShadow)" transform="translate(300, 160)">
+    <circle cx="0" cy="0" r="18" fill="#FFF9F6" stroke="url(#goldChain)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="10" fill="#E07A86" opacity="0.8"/>
+    <path d="M 0 -18 Q 0 -30 10 -25" fill="none" stroke="url(#goldChain)" stroke-width="2"/>
+  </g>
+</svg>

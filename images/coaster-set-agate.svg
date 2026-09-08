@@ -1,0 +1,37 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Set of 4 handmade agate resin coasters with gold gilded rims and blush pink marble veins">
+  <defs>
+    <linearGradient id="cBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F6"/>
+      <stop offset="100%" stop-color="#F3E8E2"/>
+    </linearGradient>
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4DC"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8C6207"/>
+    </linearGradient>
+    <filter id="cShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#2B1E22" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#cBg)"/>
+  <g filter="url(#cShadow)" transform="translate(130, 90)">
+    <path d="M -50 0 C -45 -40 0 -55 45 -45 C 55 0 45 45 0 50 C -45 45 -55 20 -50 0 Z" fill="#9B4A58" opacity="0.85" stroke="url(#goldRim)" stroke-width="4"/>
+    <circle cx="0" cy="0" r="18" fill="#FFFFFF" opacity="0.4"/>
+  </g>
+  <g filter="url(#cShadow)" transform="translate(260, 95)">
+    <path d="M -45 5 C -40 -35 10 -50 50 -40 C 55 5 40 50 -5 45 C -45 40 -50 15 -45 5 Z" fill="#C89B84" opacity="0.85" stroke="url(#goldRim)" stroke-width="4"/>
+    <circle cx="0" cy="0" r="18" fill="#FFFFFF" opacity="0.4"/>
+  </g>
+  <g filter="url(#cShadow)" transform="translate(140, 190)">
+    <path d="M -55 -5 C -50 -45 5 -55 50 -45 C 55 -5 45 45 5 50 C -45 45 -55 25 -55 -5 Z" fill="#E07A86" opacity="0.9" stroke="url(#goldRim)" stroke-width="4"/>
+    <circle cx="-15" cy="-8" r="3" fill="url(#goldRim)"/>
+    <circle cx="12" cy="14" r="3.5" fill="url(#goldRim)"/>
+  </g>
+  <g filter="url(#cShadow)" transform="translate(265, 195)">
+    <path d="M -50 0 C -45 -45 0 -55 50 -40 C 55 5 45 50 0 55 C -50 45 -55 15 -50 0 Z" fill="#FFF9F6" stroke="url(#goldRim)" stroke-width="4.5"/>
+    <path d="M -30 -10 Q 0 -35 30 -15 Q 0 35 -30 -10" fill="#E07A86" opacity="0.5"/>
+    <path d="M -15 -5 Q 0 -15 15 -5 Q 0 15 -15 -5" fill="#9B4A58" opacity="0.7"/>
+    <circle cx="0" cy="0" r="4" fill="url(#goldRim)"/>
+    <ellipse cx="-15" cy="-20" rx="25" ry="10" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+</svg>

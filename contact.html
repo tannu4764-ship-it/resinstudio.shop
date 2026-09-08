@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resin Artist Near Govind Nagar Kanpur | Studio Contact</title>
+  <meta name="description" content="Visit My Resin Studio in Govind Nagar, Kanpur. Connect for custom orders, local studio pickup, and delivery across nearby Kanpur localities.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Reusable Header across all pages -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="My Resin Studio Home">
+        <span class="brand-title">My Resin Studio</span>
+        <span class="brand-subtitle">Govind Nagar • Kanpur</span>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span class="nav-toggle-icon"></span>
+      </button>
+
+      <nav id="nav-menu" class="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="products.html" class="nav-link">Catalog</a></li>
+          <li><a href="shop.html" class="nav-link">Shop Now</a></li>
+          <li><a href="custom-order.html" class="nav-link">Custom Orders</a></li>
+          <li><a href="name-plates-and-decor.html" class="nav-link">Nameplates &amp; Décor</a></li>
+          <li><a href="contact.html" class="nav-link active">Studio &amp; Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-desktop">
+        <a href="https://wa.me/919XXXXXXXXX?text=Hi%20My%20Resin%20Studio,%20I%20would%20like%20to%20enquire%20about%20a%20handcrafted%20resin%20piece" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+          💬 WhatsApp Enquiry
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">Local Kanpur Studio</div>
+          <h1 id="contact-heading">Custom Order Enquiry & Studio Contact</h1>
+          <p>Tell us about the resin artwork or personalised gift you have in mind. We will discuss colour palettes, share design options, and confirm your price quote.</p>
+        </div>
+
+        <!-- Success Message Banner (Shown on valid form submission) -->
+        <div id="form-success" class="form-success-banner" role="status" aria-live="polite">
+          <div class="success-icon">✓</div>
+          <h3>Enquiry Received Successfully!</h3>
+          <p id="success-summary">Thank you! Your custom order enquiry has been received. We will contact you on your mobile number shortly.</p>
+          <div class="success-actions">
+            <a id="whatsapp-continue-btn" href="https://wa.me/919XXXXXXXXX" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+              💬 Open in WhatsApp Chat Now
+            </a>
+            <a href="products.html" class="btn btn-secondary">
+              Browse More Designs
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Enquiry Form Column -->
+          <div class="contact-card">
+            <h2 class="contact-form-title">Send a Custom Order Enquiry</h2>
+            <p class="contact-form-subtitle">
+              Fill out the form below with your requirements. All fields marked with an asterisk (<span class="required-mark">*</span>) are required.
+            </p>
+
+            <form id="enquiry-form" novalidate>
+              <!-- Field 1: Customer Name -->
+              <div class="form-group">
+                <label for="customer-name" class="form-label">
+                  Your Full Name <span class="required-mark">*</span>
+                </label>
+                <input type="text" id="customer-name" name="customer-name" class="form-input" placeholder="e.g. Pooja Sharma" autocomplete="name" required>
+                <span id="error-customer-name" class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <!-- Field 2: Mobile Number -->
+              <div class="form-group">
+                <label for="mobile-number" class="form-label">
+                  Mobile Number (10 Digits) <span class="required-mark">*</span>
+                </label>
+                <input type="tel" id="mobile-number" name="mobile-number" class="form-input" placeholder="e.g. 9876543210" maxlength="10" autocomplete="tel" required>
+                <span class="form-hint">Used to share design previews and delivery updates on WhatsApp/Call.</span>
+                <span id="error-mobile-number" class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <!-- Field 3: Product Required -->
+              <div class="form-group">
+                <label for="product-item" class="form-label">
+                  Product / Custom Item Required <span class="required-mark">*</span>
+                </label>
+                <input type="text" id="product-item" name="product-item" class="form-input" placeholder="e.g. Ocean Wall Clock, Nameplate, Initial Keychain, Coaster Set" required>
+                <span id="error-product-item" class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <!-- Field 4: Occasion Dropdown -->
+              <div class="form-group">
+                <label for="occasion" class="form-label">
+                  Occasion / Purpose <span class="required-mark">*</span>
+                </label>
+                <select id="occasion" name="occasion" class="form-select" required>
+                  <option value="">-- Please select an occasion --</option>
+                  <option value="Birthday">Birthday</option>
+                  <option value="Anniversary">Anniversary</option>
+                  <option value="Wedding">Wedding</option>
+                  <option value="Home Décor">Home Décor</option>
+                  <option value="Personalised Gift">Personalised Gift</option>
+                  <option value="Corporate Gift">Corporate Gift</option>
+                  <option value="Other">Other</option>
+                </select>
+                <span id="error-occasion" class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <!-- Field 5: Message / Requirements -->
+              <div class="form-group">
+                <label for="custom-message" class="form-label">
+                  Message / Customisation Requirements <span class="required-mark">*</span>
+                </label>
+                <textarea id="custom-message" name="custom-message" class="form-textarea" placeholder="Describe your preferred colour palette (e.g. ocean blues, blush rose, gold flakes), custom names or dates to be embedded, or specific dimensions..." required></textarea>
+                <span id="error-custom-message" class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-submit">
+                Submit Custom Order Enquiry
+              </button>
+            </form>
+          </div>
+
+          <!-- Studio & Direct Contact Sidebar -->
+          <div class="contact-info-panel">
+            <div class="info-card">
+              <h3>Direct WhatsApp Coordination</h3>
+              <p class="contact-direct-desc">
+                Prefer instant messaging? Chat directly with the maker to share reference photos and get immediate price estimates.
+              </p>
+              <a href="https://wa.me/919XXXXXXXXX?text=Hi%20My%20Resin%20Studio,%20I%20would%20like%20to%20discuss%20a%20custom%20resin%20order" class="btn btn-whatsapp btn-block" target="_blank" rel="noopener noreferrer">
+                💬 Chat on WhatsApp (+91 9XXXXXXXXX)
+              </a>
+            </div>
+
+            <div class="info-card">
+              <h3>Studio Location &amp; Pickup</h3>
+              <ul class="contact-quick-list">
+                <li class="contact-quick-item">
+                  <div class="contact-icon-bubble">📍</div>
+                  <div class="contact-details-text">
+                    <strong>Studio Address</strong>
+                    <span>Govind Nagar, Kanpur, Uttar Pradesh — 208006</span>
+                  </div>
+                </li>
+                <li class="contact-quick-item">
+                  <div class="contact-icon-bubble">🕒</div>
+                  <div class="contact-details-text">
+                    <strong>Working Hours</strong>
+                    <span>Monday – Saturday: 10:00 AM – 7:30 PM (Pickup by Appointment)</span>
+                  </div>
+                </li>
+                <li class="contact-quick-item">
+                  <div class="contact-icon-bubble">🚚</div>
+                  <div class="contact-details-text">
+                    <strong>5 km Local Delivery Radius</strong>
+                    <span>Govind Nagar, Barra, Gujaini, Ratan Lal Nagar, Kidwai Nagar, Kakadeo, Fazalganj</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="info-card contact-promise-card">
+              <h3 class="contact-promise-title">✨ Handcrafted Promise</h3>
+              <p class="contact-promise-desc">
+                Every product is handcrafted with care in our local studio using high-grade, non-toxic epoxy resin. We send photos of your custom piece before final packaging and delivery.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Reusable Footer across all pages -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <h3>My Resin Studio</h3>
+          <p>Handcrafted resin art studio based in Govind Nagar, Kanpur. Creating personalized gifts, custom nameplates, resin wall clocks, and memory preservation keepsakes with genuine handmade craftsmanship.</p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Product Catalog</a></li>
+            <li><a href="shop.html">Shop Now</a></li>
+            <li><a href="custom-order.html">Custom Orders</a></li>
+            <li><a href="name-plates-and-decor.html">Nameplates &amp; Décor</a></li>
+            <li><a href="contact.html">Studio &amp; Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Studio &amp; Delivery</h3>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <div>
+              <strong>Govind Nagar, Kanpur</strong><br>
+              Uttar Pradesh, India (PIN: 208006)
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <div>
+              <a href="https://wa.me/919XXXXXXXXX" target="_blank" rel="noopener noreferrer">WhatsApp: +91 9XXXXXXXXX</a>
+            </div>
+          </div>
+          <div class="footer-coverage-tags">
+            <span class="coverage-tag">Govind Nagar</span>
+            <span class="coverage-tag">Barra</span>
+            <span class="coverage-tag">Gujaini</span>
+            <span class="coverage-tag">Kidwai Nagar</span>
+            <span class="coverage-tag">Kakadeo</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 My Resin Studio, Govind Nagar, Kanpur. All rights reserved. Handcrafted with care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Conversion Bar for Mobile Screens -->
+  <aside class="mobile-sticky-bar" aria-label="Quick Mobile Actions">
+    <a href="https://wa.me/919XXXXXXXXX?text=Hi%20My%20Resin%20Studio,%20I%20want%20to%20enquire%20about%20a%20custom%20resin%20gift" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+      💬 WhatsApp
+    </a>
+    <a href="custom-order.html" class="btn btn-primary">
+      ✨ Custom Order
+    </a>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>

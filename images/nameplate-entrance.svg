@@ -1,0 +1,34 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Luxury handcrafted resin entrance nameplate with gold 3D acrylic letters and marble background">
+  <defs>
+    <linearGradient id="npBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F6"/>
+      <stop offset="100%" stop-color="#F3E8E2"/>
+    </linearGradient>
+    <linearGradient id="gold3d" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0D4"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="75%" stop-color="#AA7C11"/>
+      <stop offset="100%" stop-color="#FCEADE"/>
+    </linearGradient>
+    <filter id="npShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#2B1E22" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#npBg)"/>
+  <rect x="30" y="30" width="340" height="240" rx="8" fill="#F8EFEA" stroke="#E5D5CD" stroke-width="1.5"/>
+  <g filter="url(#npShadow)" transform="translate(45, 65)">
+    <rect width="310" height="170" rx="14" fill="#2B1E22" stroke="url(#gold3d)" stroke-width="4"/>
+    <path d="M 20 80 Q 150 40 290 90" stroke="#FFFFFF" stroke-width="2.5" fill="none" opacity="0.65"/>
+    <path d="M 40 120 Q 160 85 280 130" stroke="#C89B84" stroke-width="2" fill="none" opacity="0.5"/>
+    <circle cx="85" cy="70" r="4" fill="url(#gold3d)"/>
+    <circle cx="170" cy="55" r="5" fill="url(#gold3d)"/>
+    <rect x="10" y="10" width="290" height="150" rx="10" fill="none" stroke="url(#gold3d)" stroke-width="1" opacity="0.6"/>
+    <text x="155" y="78" font-family="'Cinzel', Georgia, serif" font-size="24" font-weight="bold" fill="url(#gold3d)" text-anchor="middle" letter-spacing="2">THE SHARMAS</text>
+    <text x="155" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">Flat 402 • Anand Vihar</text>
+    <text x="155" y="132" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#E2D3CC" text-anchor="middle" letter-spacing="0.5">Govind Nagar, Kanpur</text>
+    <circle cx="22" cy="22" r="4" fill="url(#gold3d)"/>
+    <circle cx="288" cy="22" r="4" fill="url(#gold3d)"/>
+    <circle cx="22" cy="148" r="4" fill="url(#gold3d)"/>
+    <circle cx="288" cy="148" r="4" fill="url(#gold3d)"/>
+  </g>
+</svg>

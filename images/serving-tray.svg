@@ -1,0 +1,27 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Luxury handcrafted resin serving tray with champagne gold handles and white marble veining">
+  <defs>
+    <linearGradient id="tBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F6"/>
+      <stop offset="100%" stop-color="#F3E8E2"/>
+    </linearGradient>
+    <linearGradient id="trayGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0D4"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8C6207"/>
+    </linearGradient>
+    <filter id="trayShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#2B1E22" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#tBg)"/>
+  <g filter="url(#trayShadow)" transform="translate(50, 75)">
+    <rect width="300" height="150" rx="14" fill="#FFFFFF" stroke="url(#trayGold)" stroke-width="3.5"/>
+    <path d="M 20 80 Q 150 40 280 85" stroke="#E07A86" stroke-width="3" fill="none" opacity="0.6"/>
+    <path d="M 40 110 Q 160 80 270 120" stroke="#C89B84" stroke-width="2" fill="none" opacity="0.5"/>
+    <circle cx="80" cy="65" r="4.5" fill="url(#trayGold)"/>
+    <circle cx="160" cy="50" r="5.5" fill="url(#trayGold)"/>
+    <path d="M -15 45 C -15 35 15 35 15 45 L 15 105 C 15 115 -15 115 -15 105 Z" fill="url(#trayGold)" stroke="#8C6207" stroke-width="1"/>
+    <path d="M 285 45 C 285 35 315 35 315 45 L 315 105 C 315 115 285 115 285 105 Z" fill="url(#trayGold)" stroke="#8C6207" stroke-width="1"/>
+    <rect x="5" y="5" width="290" height="60" rx="10" fill="#FFFFFF" opacity="0.3"/>
+  </g>
+</svg>

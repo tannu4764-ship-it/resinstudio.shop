@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Resin Art Orders & Price Estimator | My Resin Studio Kanpur</title>
+  <meta name="description" content="Order custom resin art, personalised gifts, nameplates, and wall clocks in Govind Nagar, Kanpur. Calculate estimates and coordinate directly on WhatsApp.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Reusable Header across all pages -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="My Resin Studio Home">
+        <span class="brand-title">My Resin Studio</span>
+        <span class="brand-subtitle">Govind Nagar • Kanpur</span>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span class="nav-toggle-icon"></span>
+      </button>
+
+      <nav id="nav-menu" class="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="products.html" class="nav-link">Catalog</a></li>
+          <li><a href="shop.html" class="nav-link">Shop Now</a></li>
+          <li><a href="custom-order.html" class="nav-link active">Custom Orders</a></li>
+          <li><a href="name-plates-and-decor.html" class="nav-link">Nameplates &amp; Décor</a></li>
+          <li><a href="contact.html" class="nav-link">Studio &amp; Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-desktop">
+        <a href="https://wa.me/919XXXXXXXXX?text=Hi%20My%20Resin%20Studio,%20I%20would%20like%20to%20enquire%20about%20a%20handcrafted%20resin%20piece" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+          💬 WhatsApp Enquiry
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Custom Order Intro Section -->
+    <section class="catalog-section" aria-labelledby="builder-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">Bespoke Handcrafted Resin Art</div>
+          <h1 id="builder-heading">Custom Resin Art Order Builder &amp; Price Estimator</h1>
+          <p>
+            Personalise handmade resin gifts, custom family nameplates, wall clocks, and memory keepsakes crafted right here in Govind Nagar, Kanpur. Select your item, colour theme, and customisation options below for an instant quote.
+          </p>
+        </div>
+
+        <!-- Visual Creation Flow -->
+        <div class="about-visual-box">
+          <img src="images/custom-builder-flow.svg" alt="Step-by-step custom resin order creation process in Govind Nagar Kanpur" width="600" height="400">
+        </div>
+
+        <div class="builder-layout">
+          <!-- Interactive Builder Form -->
+          <div class="builder-card">
+            <form id="custom-builder-form" novalidate>
+              <!-- Step 1: Item Selection -->
+              <div class="builder-step-header">
+                <span class="builder-step-num">1</span>
+                <div>
+                  <h2 class="h3">Select Your Resin Product</h2>
+                  <p class="text-sm">Choose the handcrafted resin item you wish to customise.</p>
+                </div>
+              </div>
+
+              <div class="builder-options-grid">
+                <label class="builder-radio-label">
+                  <input type="radio" name="custom-item" value="Alphabet Initial Keychain" data-base-price="199" checked>
+                  <div>
+                    <strong>Initial Keychain</strong><br>
+                    <span class="text-sm">From ₹199 • With tassel &amp; gold flakes</span>
+                  </div>
+                </label>
+
+                <label class="builder-radio-label">
+                  <input type="radio" name="custom-item" value="Botanical Resin Jewellery" data-base-price="249">
+                  <div>
+                    <strong>Botanical Jewellery</strong><br>
+                    <span class="text-sm">From ₹249 • Real dried flowers</span>
+                  </div>
+                </label>
+
+                <label class="builder-radio-label">
+                  <input type="radio" name="custom-item" value="Floral Resin Bookmark" data-base-price="149">
+                  <div>
+                    <strong>Floral Bookmark</strong><br>
+                    <span class="text-sm">From ₹149 • Slim &amp; durable</span>
+                  </div>
+                </label>
+
+                <label class="builder-radio-label">
+                  <input type="radio" name="custom-item" value="Agate Resin Coaster Set (4 Pcs)" data-base-price="499">
+                  <div>
+                    <strong>Agate Coaster Set (4 Pcs)</strong><br>
+                    <span class="text-sm">From ₹499 • Gold gilded rims</span>
+                  </div>
+                </label>
+
+                <label class="builder-radio-label">
+                  <input type="radio" name="custom-item" value="Resin Trinket Dish" data-base-price="299">
+                  <div>
+                    <strong>Trinket &amp; Ring Dish</strong><br>
+                    <span class="text-sm">From ₹299 • Scalloped floral basin</span>
+                  </div>
+                </label>
+
+                <label class="builder-radio-label">
+                  <input type="radio" name="custom-item" value="Photo or Varmala Keepsake Block" data-base-price="799">
+                  <div>
+                    <strong>Keepsake Memory Frame</strong><br>
+                    <span class="text-sm">From ₹799 • Wedding flower preservation</span>
+                  </div>
+                </label>
+
+                <label class="builder-radio-label">
+                  <input type="radio" name="custom-item" value="Custom Entrance Nameplate" data-base-price="1499">
+                  <div>
+                    <strong>Entrance Nameplate</strong><br>
+                    <span class="text-sm">From ₹1,499 • 3D raised gold letters</span>
+                  </div>
+                </label>
+
+                <label class="builder-radio-label">
+                  <input type="radio" name="custom-item" value="Ocean Wave Resin Wall Clock" data-base-price="1799">
+                  <div>
+                    <strong>Resin Wall Clock</strong><br>
+                    <span class="text-sm">From ₹1,799 • Multi-layer ocean froth</span>
+                  </div>
+                </label>
+              </div>
+
+              <!-- Step 2: Colour Palette Selection -->
+              <div class="builder-step-header">
+                <span class="builder-step-num">2</span>
+                <div>
+                  <h2 class="h3">Pick Your Colour Theme</h2>
+                  <p class="text-sm">Select a studio colour scheme or describe your custom palette.</p>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="builder-theme" class="form-label">
+                  Preferred Colour Theme <span class="required-mark">*</span>
+                </label>
+                <select id="builder-theme" name="builder-theme" class="form-select" required>
+                  <option value="Blush Rose & Gold Leaf">Blush Rose &amp; 24k Gold Leaf Flakes</option>
+                  <option value="Deep Ocean Teal & Sea Foam">Deep Ocean Teal &amp; White Sea Foam</option>
+                  <option value="Black Marble & Champagne Gold">Black Marble &amp; Champagne Gold Veins</option>
+                  <option value="Maroon Beige & Pressed Botanicals">Maroon Beige &amp; Real Dried Flowers</option>
+                  <option value="Emerald Geode & Crystal Glitters">Emerald Geode &amp; Crystal Glitters</option>
+                  <option value="Custom Colour Palette">Custom Colour Combination (Specify Below)</option>
+                </select>
+              </div>
+
+              <!-- Step 3: Personalisation & Custom Text -->
+              <div class="builder-step-header">
+                <span class="builder-step-num">3</span>
+                <div>
+                  <h2 class="h3">Personalisation &amp; Inclusions</h2>
+                  <p class="text-sm">Enter the names, initials, house numbers, or dates you want embedded.</p>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="builder-text" class="form-label">
+                  Names / Initials / Numbers to Embed
+                </label>
+                <input type="text" id="builder-text" name="builder-text" class="form-input" placeholder="e.g. Initial 'M', 'The Sharmas', Flat 402, Wedding Date: 18 Nov">
+              </div>
+
+              <div class="form-group">
+                <label for="builder-notes" class="form-label">
+                  Special Notes or Specific Dimensions
+                </label>
+                <textarea id="builder-notes" name="builder-notes" class="form-textarea" placeholder="e.g. Please include red rose petals from my wedding varmala, keep the background translucent, size required: 16x8 inches..."></textarea>
+              </div>
+
+              <!-- Step 4: Contact & Local Delivery -->
+              <div class="builder-step-header">
+                <span class="builder-step-num">4</span>
+                <div>
+                  <h2 class="h3">Your Details (Govind Nagar &amp; Kanpur)</h2>
+                  <p class="text-sm">We coordinate all design previews with you before final pouring.</p>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="builder-name" class="form-label">
+                  Your Full Name <span class="required-mark">*</span>
+                </label>
+                <input type="text" id="builder-name" name="builder-name" class="form-input" placeholder="e.g. Pooja Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="builder-phone" class="form-label">
+                  Mobile Number (10 Digits) <span class="required-mark">*</span>
+                </label>
+                <input type="tel" id="builder-phone" name="builder-phone" class="form-input" placeholder="e.g. 9876543210" maxlength="10" required>
+              </div>
+
+              <div class="form-group">
+                <label for="builder-locality" class="form-label">
+                  Kanpur Delivery Locality / Studio Pickup
+                </label>
+                <select id="builder-locality" name="builder-locality" class="form-select">
+                  <option value="Studio Pickup (Govind Nagar)">Studio Pickup (Govind Nagar Studio)</option>
+                  <option value="Govind Nagar Delivery">Govind Nagar Delivery</option>
+                  <option value="Barra Delivery">Barra Delivery</option>
+                  <option value="Gujaini Delivery">Gujaini Delivery</option>
+                  <option value="Kidwai Nagar Delivery">Kidwai Nagar Delivery</option>
+                  <option value="Kakadeo Delivery">Kakadeo Delivery</option>
+                  <option value="Ratan Lal Nagar Delivery">Ratan Lal Nagar Delivery</option>
+                  <option value="Other Kanpur Area">Other Kanpur Locality</option>
+                </select>
+              </div>
+            </form>
+          </div>
+
+          <!-- Dynamic Live Quote Summary Sidebar -->
+          <div class="builder-summary-panel">
+            <h2 class="h3">Order Quote Summary</h2>
+            <p class="text-sm">Handcrafted locally in Govind Nagar, Kanpur.</p>
+
+            <div class="summary-price-box">
+              <span class="summary-price-label">Estimated Starting Price</span>
+              <div id="live-price-display" class="summary-price-value">From ₹199</div>
+            </div>
+
+            <ul class="decor-specs-list">
+              <li class="decor-spec-item">
+                <span class="decor-spec-icon">✓</span>
+                <span id="summary-item-text">Alphabet Initial Keychain</span>
+              </li>
+              <li class="decor-spec-item">
+                <span class="decor-spec-icon">✓</span>
+                <span id="summary-theme-text">Blush Rose &amp; Gold Leaf</span>
+              </li>
+              <li class="decor-spec-item">
+                <span class="decor-spec-icon">✓</span>
+                <span>Pre-Pouring Photo Preview Provided</span>
+              </li>
+              <li class="decor-spec-item">
+                <span class="decor-spec-icon">✓</span>
+                <span>Local Kanpur Pickup or Express Delivery</span>
+              </li>
+            </ul>
+
+            <div class="shop-card-cta-group">
+              <a id="builder-whatsapp-btn" href="https://wa.me/919XXXXXXXXX?text=Hi%20My%20Resin%20Studio,%20I%20want%20to%20order%20a%20custom%20Alphabet%20Initial%20Keychain%20(From%20%E2%82%B9199)" class="btn btn-whatsapp btn-block" target="_blank" rel="noopener noreferrer">
+                💬 Send Custom Order to WhatsApp
+              </a>
+              <a href="contact.html" class="btn btn-secondary btn-block">
+                📝 Submit via Contact Form
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Reusable Footer across all pages -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <h3>My Resin Studio</h3>
+          <p>Handcrafted resin art studio based in Govind Nagar, Kanpur. Creating personalized gifts, custom nameplates, resin wall clocks, and memory preservation keepsakes with genuine handmade craftsmanship.</p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Product Catalog</a></li>
+            <li><a href="shop.html">Shop Now</a></li>
+            <li><a href="custom-order.html">Custom Orders</a></li>
+            <li><a href="name-plates-and-decor.html">Nameplates &amp; Décor</a></li>
+            <li><a href="contact.html">Studio &amp; Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Studio &amp; Delivery</h3>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <div>
+              <strong>Govind Nagar, Kanpur</strong><br>
+              Uttar Pradesh, India (PIN: 208006)
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <div>
+              <a href="https://wa.me/919XXXXXXXXX" target="_blank" rel="noopener noreferrer">WhatsApp: +91 9XXXXXXXXX</a>
+            </div>
+          </div>
+          <div class="footer-coverage-tags">
+            <span class="coverage-tag">Govind Nagar</span>
+            <span class="coverage-tag">Barra</span>
+            <span class="coverage-tag">Gujaini</span>
+            <span class="coverage-tag">Kidwai Nagar</span>
+            <span class="coverage-tag">Kakadeo</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 My Resin Studio, Govind Nagar, Kanpur. All rights reserved. Handcrafted with care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Conversion Bar for Mobile Screens -->
+  <aside class="mobile-sticky-bar" aria-label="Quick Mobile Actions">
+    <a href="https://wa.me/919XXXXXXXXX?text=Hi%20My%20Resin%20Studio,%20I%20want%20to%20enquire%20about%20a%20custom%20resin%20gift" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+      💬 WhatsApp
+    </a>
+    <a href="custom-order.html" class="btn btn-primary">
+      ✨ Custom Order
+    </a>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>

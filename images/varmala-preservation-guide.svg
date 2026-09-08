@@ -1,0 +1,54 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Wedding varmala and floral memory preservation in crystal clear epoxy resin block">
+  <defs>
+    <linearGradient id="vmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F6"/>
+      <stop offset="100%" stop-color="#F3E8E2"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0D4"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#996515"/>
+    </linearGradient>
+    <filter id="vmShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#2B1E22" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="600" height="400" fill="url(#vmBg)"/>
+
+  <!-- Wooden LED Stand Mockup -->
+  <ellipse cx="300" cy="320" rx="170" ry="24" fill="#C89B84" stroke="#9B4A58" stroke-width="2.5"/>
+
+  <!-- 3D Resin Keepsake Block -->
+  <g filter="url(#vmShadow)" transform="translate(180, 50)">
+    <!-- Clear Resin Cube -->
+    <rect width="240" height="240" rx="16" fill="#FFFFFF" stroke="url(#goldAccent)" stroke-width="4" fill-opacity="0.95"/>
+    
+    <!-- Couple Wedding Photo -->
+    <rect x="35" y="35" width="170" height="170" rx="8" fill="#FDF2F4" stroke="#E5D5CD" stroke-width="1.5"/>
+    <circle cx="100" cy="100" r="20" fill="#9B4A58" opacity="0.8"/>
+    <path d="M 70 155 C 70 125 130 125 130 155 Z" fill="#9B4A58" opacity="0.8"/>
+    <circle cx="140" cy="105" r="18" fill="#E07A86" opacity="0.85"/>
+    <path d="M 115 155 C 115 130 165 130 165 155 Z" fill="#E07A86" opacity="0.85"/>
+
+    <!-- Preserved Wedding Red Roses (Varmala Garland) -->
+    <circle cx="30" cy="35" r="18" fill="#9B4A58" opacity="0.9"/>
+    <circle cx="210" cy="40" r="20" fill="#E07A86" opacity="0.9"/>
+    <circle cx="35" cy="205" r="22" fill="#E07A86" opacity="0.9"/>
+    <circle cx="205" cy="200" r="18" fill="#9B4A58" opacity="0.9"/>
+    <circle cx="120" cy="25" r="14" fill="#E07A86" opacity="0.8"/>
+    
+    <!-- Gold Leaf Flecks Suspended in Resin -->
+    <circle cx="50" cy="115" r="5" fill="url(#goldAccent)"/>
+    <circle cx="190" cy="125" r="6" fill="url(#goldAccent)"/>
+    <circle cx="120" cy="215" r="5.5" fill="url(#goldAccent)"/>
+    <circle cx="70" cy="50" r="4" fill="url(#goldAccent)"/>
+    <circle cx="170" cy="55" r="4.5" fill="url(#goldAccent)"/>
+
+    <!-- Specular Gloss Sheen -->
+    <path d="M 12 18 L 80 18 L 25 222 L 12 222 Z" fill="#FFFFFF" opacity="0.55"/>
+  </g>
+
+  <!-- Process Caption Banner -->
+  <rect x="150" y="355" width="300" height="28" rx="6" fill="#2B1E22"/>
+  <text x="300" y="373" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Preserve Fresh Wedding Flowers Forever</text>
+</svg>

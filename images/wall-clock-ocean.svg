@@ -1,0 +1,40 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Ocean theme resin wall clock with multi-layered sea froth and gold Roman numerals">
+  <defs>
+    <linearGradient id="clockBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F6"/>
+      <stop offset="100%" stop-color="#F3E8E2"/>
+    </linearGradient>
+    <radialGradient id="oceanWaveGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#143642"/>
+      <stop offset="45%" stop-color="#1A535C"/>
+      <stop offset="75%" stop-color="#4ECDC4"/>
+      <stop offset="92%" stop-color="#CBEAA6"/>
+      <stop offset="100%" stop-color="#F4D06F"/>
+    </radialGradient>
+    <linearGradient id="goldNum" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4DC"/>
+      <stop offset="45%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8C6207"/>
+    </linearGradient>
+    <filter id="clockShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#2B1E22" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#clockBg)"/>
+  <g filter="url(#clockShadow)" transform="translate(200, 150)">
+    <circle cx="0" cy="0" r="115" fill="url(#oceanWaveGrad)" stroke="url(#goldNum)" stroke-width="5"/>
+    <path d="M -90 20 Q -40 -10 10 15 T 100 0" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" opacity="0.9"/>
+    <path d="M -95 45 Q -40 15 20 40 T 95 25" fill="none" stroke="#FFFFFF" stroke-width="3.5" opacity="0.8"/>
+    <path d="M -80 70 Q -30 40 30 65 T 85 50" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7"/>
+    <circle cx="-50" cy="-40" r="4" fill="url(#goldNum)"/>
+    <circle cx="45" cy="-55" r="5" fill="url(#goldNum)"/>
+    <text x="0" y="-82" font-family="'Cinzel', Georgia, serif" font-size="15" font-weight="bold" fill="url(#goldNum)" text-anchor="middle">XII</text>
+    <text x="88" y="5" font-family="'Cinzel', Georgia, serif" font-size="15" font-weight="bold" fill="url(#goldNum)" text-anchor="middle">III</text>
+    <text x="0" y="94" font-family="'Cinzel', Georgia, serif" font-size="15" font-weight="bold" fill="url(#goldNum)" text-anchor="middle">VI</text>
+    <text x="-88" y="5" font-family="'Cinzel', Georgia, serif" font-size="15" font-weight="bold" fill="url(#goldNum)" text-anchor="middle">IX</text>
+    <line x1="0" y1="0" x2="0" y2="-60" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="45" y2="0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="5" fill="url(#goldNum)"/>
+    <ellipse cx="0" cy="-45" rx="85" ry="40" fill="#FFFFFF" opacity="0.2"/>
+  </g>
+</svg>

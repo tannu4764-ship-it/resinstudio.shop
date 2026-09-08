@@ -1,0 +1,50 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Luxury handcrafted resin entrance nameplate styles with 3D raised gold letters and marble veins">
+  <defs>
+    <linearGradient id="npBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F6"/>
+      <stop offset="100%" stop-color="#F3E8E2"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4DC"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="75%" stop-color="#AA7C11"/>
+      <stop offset="100%" stop-color="#FCEADE"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#2B1E22" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="600" height="400" fill="url(#npBg)"/>
+  
+  <!-- Main Entrance Plaque -->
+  <g filter="url(#shadow)" transform="translate(60, 60)">
+    <rect width="480" height="240" rx="18" fill="#2B1E22" stroke="url(#goldText)" stroke-width="5"/>
+    <path d="M 30 110 Q 240 50 450 120" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.65"/>
+    <path d="M 50 160 Q 250 110 430 170" stroke="#C89B84" stroke-width="2.5" fill="none" opacity="0.5"/>
+    <path d="M 80 80 Q 260 130 400 70" stroke="#E07A86" stroke-width="2" fill="none" opacity="0.4"/>
+    
+    <!-- Gold Foil Details -->
+    <circle cx="120" cy="95" r="5" fill="url(#goldText)"/>
+    <circle cx="260" cy="80" r="6" fill="url(#goldText)"/>
+    <circle cx="360" cy="120" r="5" fill="url(#goldText)"/>
+    <circle cx="180" cy="155" r="4.5" fill="url(#goldText)"/>
+
+    <!-- Inner Border Trim -->
+    <rect x="14" y="14" width="452" height="212" rx="12" fill="none" stroke="url(#goldText)" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- 3D Gold Letters -->
+    <text x="240" y="105" font-family="'Cinzel', Georgia, serif" font-size="34" font-weight="bold" fill="url(#goldText)" text-anchor="middle" letter-spacing="3">THE AGARWALS</text>
+    <text x="240" y="150" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">House No. 112 • Ratan Lal Nagar</text>
+    <text x="240" y="180" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#E2D3CC" text-anchor="middle" letter-spacing="0.5">Govind Nagar Zone, Kanpur</text>
+
+    <!-- Brass Studs -->
+    <circle cx="28" cy="28" r="6" fill="url(#goldText)"/>
+    <circle cx="452" cy="28" r="6" fill="url(#goldText)"/>
+    <circle cx="28" cy="212" r="6" fill="url(#goldText)"/>
+    <circle cx="452" cy="212" r="6" fill="url(#goldText)"/>
+  </g>
+
+  <!-- Weather-Resistant Badge -->
+  <rect x="180" y="340" width="240" height="30" rx="8" fill="#9B4A58"/>
+  <text x="300" y="360" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">✨ Weather-Proof UV Epoxy Finish</text>
+</svg>

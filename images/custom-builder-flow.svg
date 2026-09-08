@@ -1,0 +1,54 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Step-by-step custom resin order creation process in Govind Nagar Kanpur">
+  <defs>
+    <linearGradient id="cbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F6"/>
+      <stop offset="100%" stop-color="#F3E8E2"/>
+    </linearGradient>
+    <linearGradient id="stepGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0D4"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8C6207"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#cbBg)"/>
+
+  <!-- Step 1 Box -->
+  <g transform="translate(40, 50)">
+    <rect width="230" height="130" rx="12" fill="#FFFFFF" stroke="#E5D5CD" stroke-width="2"/>
+    <circle cx="35" cy="35" r="18" fill="#E07A86"/>
+    <text x="35" y="41" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="65" y="40" font-family="'Cinzel', serif" font-size="14" font-weight="bold" fill="#9B4A58">Choose Item</text>
+    <text x="25" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#6E5D62">Nameplates, Clocks, Keychains,</text>
+    <text x="25" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#6E5D62">Coasters or Keepsakes.</text>
+  </g>
+
+  <!-- Step 2 Box -->
+  <g transform="translate(330, 50)">
+    <rect width="230" height="130" rx="12" fill="#FFFFFF" stroke="#E5D5CD" stroke-width="2"/>
+    <circle cx="35" cy="35" r="18" fill="#9B4A58"/>
+    <text x="35" y="41" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="65" y="40" font-family="'Cinzel', serif" font-size="14" font-weight="bold" fill="#9B4A58">Pick Colours</text>
+    <text x="25" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#6E5D62">Ocean teal, Rose gold, Marble,</text>
+    <text x="25" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#6E5D62">or Custom pigments.</text>
+  </g>
+
+  <!-- Step 3 Box -->
+  <g transform="translate(40, 220)">
+    <rect width="230" height="130" rx="12" fill="#FFFFFF" stroke="#E5D5CD" stroke-width="2"/>
+    <circle cx="35" cy="35" r="18" fill="#D4AF37"/>
+    <text x="35" y="41" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="65" y="40" font-family="'Cinzel', serif" font-size="14" font-weight="bold" fill="#9B4A58">Add Personalisation</text>
+    <text x="25" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#6E5D62">Names, family initial, photos,</text>
+    <text x="25" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#6E5D62">or wedding varmala petals.</text>
+  </g>
+
+  <!-- Step 4 Box -->
+  <g transform="translate(330, 220)">
+    <rect width="230" height="130" rx="12" fill="#FFFFFF" stroke="#E5D5CD" stroke-width="2"/>
+    <circle cx="35" cy="35" r="18" fill="#2B1E22"/>
+    <text x="35" y="41" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="65" y="40" font-family="'Cinzel', serif" font-size="14" font-weight="bold" fill="#9B4A58">Pickup / Delivery</text>
+    <text x="25" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#6E5D62">Collect in Govind Nagar or get</text>
+    <text x="25" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#6E5D62">Kanpur doorstep delivery.</text>
+  </g>
+</svg>
